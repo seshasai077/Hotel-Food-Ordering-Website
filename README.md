@@ -15,32 +15,36 @@ Check out the deployed app here:
 
 ## 🏠 Home Page
 
-<img width="1904" height="918" alt="home" src="<img width="1889" height="912" alt="Screenshot 2026-03-25 195423" src="https://github.com/user-attachments/assets/e5c87337-14ef-4eb9-8cd0-8c2c33124498" />
+<img width="1904" height="918" alt="home" src="<img width="1889" height="912" alt="Screenshot 2026-03-25 195423" src="https://github.com/user-attachments/assets/e5c87337-14ef-4eb9-8cd0-8c2c33124498" />Home Page
 " />
 
 ---
 
 ## 🍽️ Menu Page
 
-<img width="1904" height="918" alt="menu" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1904" height="918" alt="menu" src="" <img width="1900" height="907" alt="Screenshot 2026-03-25 195520" src="https://github.com/user-attachments/assets/6a77284c-0ae9-4e56-879a-944c6d9254e4" />Menu Page
+/>
 
 ---
 
 ## 🛒 Cart Page
 
-<img width="1904" height="918" alt="cart" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1904" height="918" alt="cart" src="" /<img width="1882" height="870" alt="Screenshot 2026-03-25 195537" src="https://github.com/user-attachments/assets/bd1d95e6-5c03-4ce0-8697-663c2911dace" />Cart Page
+>
 
 ---
 
 ## 💳 Payment Page
 
-<img width="1904" height="918" alt="payment" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1904" height="918" alt="payment" src="<img width="1885" height="913" alt="Screenshot 2026-03-25 195556" src="https://github.com/user-attachments/assets/d76b0f24-6ceb-4a18-9bc5-85bd8c63ecb4" />CardPayment page
+" />
 
 ---
 
 ## 📞 Contact Page
 
-<img width="1904" height="918" alt="contact" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1904" height="918" alt="contact" src="" <img width="1892" height="893" alt="Screenshot 2026-03-25 195614" src="https://github.com/user-attachments/assets/7b48f2c7-6035-481d-9462-ffacba5f85f5" />Contact/Help Page
+/>
 
 ---
 
