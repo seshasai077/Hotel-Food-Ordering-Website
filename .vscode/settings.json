@@ -1,0 +1,20 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.editorAssociations": {
+    "*.mp4": "vscode.videoPreview"
+  },
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "bootstrapIntelliSense": {
+    
+    "enable": true,
+    "bsVersion": "5.3.7",
+    "showSuggestions": true,
+    "autoComplete": true
+  }
+}
