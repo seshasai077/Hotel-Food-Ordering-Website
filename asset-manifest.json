@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hotel-Food-Ordering-Website/static/css/main.425d6c3c.css",
-    "main.js": "/Hotel-Food-Ordering-Website/static/js/main.3f6d98f1.js",
+    "main.js": "/Hotel-Food-Ordering-Website/static/js/main.ab7a4146.js",
     "static/js/453.cd57a61a.chunk.js": "/Hotel-Food-Ordering-Website/static/js/453.cd57a61a.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Hotel-Food-Ordering-Website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Hotel-Food-Ordering-Website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Hotel-Food-Ordering-Website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Hotel-Food-Ordering-Website/index.html",
     "main.425d6c3c.css.map": "/Hotel-Food-Ordering-Website/static/css/main.425d6c3c.css.map",
-    "main.3f6d98f1.js.map": "/Hotel-Food-Ordering-Website/static/js/main.3f6d98f1.js.map",
+    "main.ab7a4146.js.map": "/Hotel-Food-Ordering-Website/static/js/main.ab7a4146.js.map",
     "453.cd57a61a.chunk.js.map": "/Hotel-Food-Ordering-Website/static/js/453.cd57a61a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.425d6c3c.css",
-    "static/js/main.3f6d98f1.js"
+    "static/js/main.ab7a4146.js"
   ]
 }
