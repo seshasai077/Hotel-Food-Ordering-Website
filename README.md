@@ -4,10 +4,85 @@ A modern and responsive **Food Ordering Web App** built using **React.js**.
 Users can browse menu items, place orders, and complete payments with a smooth UI experience.
 
 ---
+# 🍽️ Grandios Hotel - Food Ordering Website
 
-## 🚀 Live Demo
+### 🔗 Live Demo
 
+Check out the deployed app here:
 👉 https://seshasai077.github.io/Hotel-Food-Ordering-Website/
+
+---
+
+## 🏠 Home Page
+
+<img width="1904" height="918" alt="home" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+
+---
+
+## 🍽️ Menu Page
+
+<img width="1904" height="918" alt="menu" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+
+---
+
+## 🛒 Cart Page
+
+<img width="1904" height="918" alt="cart" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+
+---
+
+## 💳 Payment Page
+
+<img width="1904" height="918" alt="payment" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+
+---
+
+## 📞 Contact Page
+
+<img width="1904" height="918" alt="contact" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+
+---
+
+## ✨ Features
+
+* 🏠 Landing page with hero section
+* 🍔 Dynamic food menu
+* 🛒 Cart with quantity control
+* 💳 Payment system (Cash + Card)
+* 🔄 Smooth navigation (React Router)
+* 📱 Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* React Router DOM
+* Bootstrap
+* CSS
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/seshasai077/Hotel-Food-Ordering-Website.git
+cd Hotel-Food-Ordering-Website
+npm install
+npm start
+```
+
+---
+
+## 👨‍💻 Author
+
+**Sesha Sai**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
 
 ---
 
