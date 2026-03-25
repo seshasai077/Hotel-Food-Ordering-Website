@@ -1,74 +1,134 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🍽️ Grandios Hotel – Food Ordering Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive **Food Ordering Web App** built using **React.js**.
+Users can browse menu items, place orders, and complete payments with a smooth UI experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+👉 https://seshasai077.github.io/Hotel-Food-Ordering-Website/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Features
 
-### `npm test`
+* 🏠 Beautiful Homepage with hero section
+* 🍕 Dynamic Menu with search functionality
+* 🛒 Add items and view in Cart
+* ➕ Quantity control (increase / decrease)
+* 💳 Payment system (Cash / Card)
+* 🎴 Interactive card payment UI (with flip animation)
+* ❌ Cancel order option
+* 📩 Contact form with validation
+* 📱 Fully responsive design (mobile + desktop)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Frontend:** React.js
+* **Routing:** React Router
+* **Styling:** Bootstrap + Custom CSS
+* **Icons:** Font Awesome
+* **API:** Axios (Food API)
+* **Deployment:** GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Project Structure
 
-### `npm run eject`
+```
+src/
+│
+├── components/
+│   ├── Homepage.jsx
+│   ├── Menu.jsx
+│   ├── MyCart.jsx
+│   ├── Debitcard.jsx
+│   ├── Contact.jsx
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+│
+├── services/
+│   └── service.js
+│
+├── App.js
+└── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/seshasai077/Hotel-Food-Ordering-Website.git
+```
 
-## Learn More
+2. Navigate to project folder
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd Hotel-Food-Ordering-Website
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Run the app
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Deployment (GitHub Pages)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run deploy
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⚠️ Important Notes
 
-### Deployment
+* Uses **HashRouter** for GitHub Pages compatibility
+* Data is passed using **React Router state**
+* If page refresh happens → cart data resets (expected behavior)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🔮 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# City-Book
->>>>>>> 338461e6e08e403c20b29487da5dd46a09c25911
+* 🛒 Add global cart (Context API / Redux)
+* 💾 Persist data using Local Storage
+* 🔐 Add authentication (Login / Signup)
+* 📦 Order history tracking
+* 💳 Real payment gateway integration
+
+---
+
+## 👨‍💻 Author
+
+**Sesha Sai**
+
+* GitHub: https://github.com/seshasai077
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 🍴 Fork it
+* 📢 Share it
+
+---
+
+💡 *"Good food is the foundation of genuine happiness."*
