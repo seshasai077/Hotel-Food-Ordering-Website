@@ -15,7 +15,8 @@ Check out the deployed app here:
 
 ## 🏠 Home Page
 
-<img width="1904" height="918" alt="home" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+<img width="1904" height="918" alt="home" src="<img width="1889" height="912" alt="Screenshot 2026-03-25 195423" src="https://github.com/user-attachments/assets/e5c87337-14ef-4eb9-8cd0-8c2c33124498" />
+" />
 
 ---
 
