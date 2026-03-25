@@ -1,0 +1,232 @@
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* start from bottom */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* move to normal */
+  }
+}
+
+.fade-up {
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.fade-upper {
+  animation: fadeUp 2s ease-out forwards;
+}
+
+/* for seach box */
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: 400px;
+  background: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.search-box:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+  font-size: 18px;
+  color: gray;
+  margin-right: 10px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.clear-icon {
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+.Homepageimages {
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+.animate {
+  animation: fadeScale 0.6s ease-in-out;
+}
+
+@keyframes fadeScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.Homepagecss {
+  height: 100vh;
+
+  background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/*  Fade-in animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*  Card hover animation */
+.card-animate {
+  transition: all 0.3s ease;
+}
+
+.card-animate:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+/*  Icons hover */
+.icon-hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon-hover:hover {
+  color: orange;
+  transform: scale(1.3);
+}
+
+/*  Smooth input focus */
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-color: black;
+}
+
+/* paymnet */
+/* 🌌 Background */
+.payment-bg {
+  height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* 📦 Container */
+.payment-container {
+  width: 850px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+}
+
+/* 💳 Card box */
+.card-box {
+  width: 320px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+}
+
+/* Flip animation */
+.card-box .card-front,
+.card-box .card-back {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+/* Front */
+.card-front {
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: white;
+  padding: 20px;
+}
+
+/* Back */
+.card-back {
+  background: linear-gradient(135deg, #434343, #000000);
+  transform: rotateY(180deg);
+  color: white;
+}
+
+/* Flip effect */
+.card-box.flip .card-front {
+  transform: rotateY(180deg);
+}
+
+.card-box.flip .card-back {
+  transform: rotateY(360deg);
+}
+
+/* Chip */
+.chip {
+  width: 40px;
+  height: 30px;
+  background: gold;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Black strip */
+.black-strip {
+  height: 40px;
+  background: black;
+  margin-top: 20px;
+}
+
+/* CVV */
+.cvv-box {
+  background: white;
+  color: black;
+  padding: 5px;
+  width: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Inputs */
+.input-anim {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.input-anim:focus {
+  box-shadow: 0 0 10px #007bff;
+  transform: scale(1.03);
+}
+
+/* Button */
+.pay-btn {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  transform: scale(1.05);
+}
