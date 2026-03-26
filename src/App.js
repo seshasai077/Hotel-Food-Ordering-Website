@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "./App.css";
 import "./index.css";
 import Menupage from "./components/Menu";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Contactpage from "./components/Contact";
 import MyCart from "./components/MyCart";
 import Nav from "./components/navbar";
@@ -13,7 +13,7 @@ import CardPyment from "./components/Debitcard";
 function App() {
   return (
     <Fragment>
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
         <div className="d-flex flex-column min-vh-100">
           <div className="flex-fill">
@@ -29,7 +29,7 @@ function App() {
           </div>
           <Footerpage />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </Fragment>
   );
 }

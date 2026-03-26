@@ -13,10 +13,6 @@
   animation: fadeUp 1s ease-out forwards;
 }
 
-.fade-upper {
-  animation: fadeUp 2s ease-out forwards;
-}
-
 /* for seach box */
 .search-container {
   display: flex;

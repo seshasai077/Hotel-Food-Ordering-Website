@@ -165,14 +165,13 @@ let MyCart = () => {
                           Cash
                         </button>
 
-                        <button className="btn btn-dark rounded-pill">
-                          <Link
-                            to="/Debitcard"
-                            className="text-white text-decoration-none"
-                          >
-                            card
-                          </Link>
-                        </button>
+                        <Link
+                          to="/Debitcard"
+                          state={item}
+                          className="btn btn-dark rounded-pill text-white text-decoration-none"
+                        >
+                          Card
+                        </Link>
                       </div>
                     </>
                   ) : (

@@ -53,7 +53,7 @@ let Menupage = () => {
           </div>
           {/* --------------------------------------- search bar ------------------------------------------------------------------ */}
 
-          <div className="search-box text-center mb-3 mt-3 search-container my-4 fade-upper">
+          <div className="search-box text-center mb-3 mt-3 search-container my-4 fade-up">
             <i className="bi bi-search search-icon"></i>
             <input
               type="search"

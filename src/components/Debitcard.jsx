@@ -1,7 +1,10 @@
-import React, { Fragment, useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { Fragment, useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 
 let CardPyment = () => {
+  let location = useLocation();
+  let item = location.state;
+
   let [payed, setpayed] = useState({
     isPayed: false,
   });
@@ -30,7 +33,6 @@ let CardPyment = () => {
     }
   };
 
-  //   -------------------------------------------- Payment -----------------------------------------------------------------//
   let navigate = useNavigate();
 
   let payBtn = (event) => {
@@ -43,18 +45,22 @@ let CardPyment = () => {
       card.cvv.trim() !== ""
     ) {
       console.log(card);
-      //   set payment true or false
-      setpayed((payed) => ({
+
+      // ✅ FIXED (important)
+      setpayed((prev) => ({
+        ...prev,
         isPayed: true,
       }));
-      //   seting back crad to "" string
-      setCard((card) => ({
+
+      setCard({
         name: "",
         number: "",
         expiry: "",
         cvv: "",
-      }));
+      });
+
       setFlip(false);
+
       setTimeout(() => {
         navigate("/Menu");
       }, 2000);
@@ -62,6 +68,11 @@ let CardPyment = () => {
       alert("Please Fill the Fields");
     }
   };
+
+  // ✅ FIXED (mobile refresh / direct access issue)
+  if (!item) {
+    return <h3 className="text-center mt-5 text-white">No item selected</h3>;
+  }
 
   return (
     <Fragment>
@@ -93,7 +104,6 @@ let CardPyment = () => {
           </div>
 
           {/* 🧾 FORM */}
-
           <div className="col-md-6 p-4 ">
             <h3 className="fw-bold text-center mb-4">Secure Payment </h3>
 
@@ -148,6 +158,7 @@ let CardPyment = () => {
             >
               Pay Now
             </button>
+
             {payed.isPayed && (
               <h5 className="text-success text-center mt-3">
                 Payment Successful 🎉
@@ -159,4 +170,5 @@ let CardPyment = () => {
     </Fragment>
   );
 };
+
 export default CardPyment;
